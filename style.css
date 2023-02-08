@@ -1,0 +1,224 @@
+body {
+    background: radial-gradient(rgb(253, 221, 226), rgb(248, 243, 195), rgb(255, 225, 198));
+    font-family: 'Open Sans', sans-serif;
+}
+#ufo img {
+    width: 200px;
+    height: 200px;
+    top: 0;
+    right: 0;
+    position: fixed;
+}
+#reading-girl {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    bottom: 0;
+    position: fixed;
+}
+#section-1 {
+    background-color: white;
+    width: 75%;
+    margin: 50px auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+}
+#portrait img {
+    height:200px;
+    width: 200px;
+    border-radius: 120px;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);
+}
+#basic-info {
+    font-size: 18px;
+    padding: 0 40px;
+}
+#basic-info h2 {
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: rgb(29, 29, 29);
+    padding-left: 40px;
+}
+#basic-info ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#basic-info li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#section-2 {
+    background-color: white;
+    width: 75%;
+    margin: 50px auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#edu {
+    font-size: 18px;
+    padding: 40px;
+}
+#edu-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#edu h2 {
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: rgb(29, 29, 29);
+}
+#edu-info {
+    padding: 0 55px;
+}
+#stickers img {
+    width: 200px;
+    height: 200px;
+    padding-right: 20px;
+}
+#section-3 {
+    margin: 50px auto;
+    background-color: white;
+    width: 75%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+#act {
+    font-size: 18px;
+    padding: 40px;
+}
+#act h2 {
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: rgb(29, 29, 29);
+}
+#act ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px 40px;
+}
+#sticker-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#sticker-1 img{
+    width: 200px;
+    height: 200px;
+    padding: 0 30px;
+}
+#section-4 {
+    margin: 50px auto;
+    background-color: white;
+    width: 75%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+#skills {
+    font-size: 18px;
+    padding: 40px;
+}
+#skills h2 {
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: rgb(29, 29, 29);
+}
+#skills ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#last {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 50px auto;
+}
+#section-5 {
+    background-color: white;
+    width: 70%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    height: 420px;
+    margin-left: 30px;
+}
+#contact {
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+#contact h2 {
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: rgb(29, 29, 29);
+}
+#contact ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+#contact li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.icons {
+    height: 40px;
+    width: 40px;
+    padding: 10px;
+}
+.contact-info {
+    text-decoration: none;
+    color: rgb(29, 29, 29);
+}
+.contact-info:hover {
+    color: rgb(122, 55, 28);
+}
+#section-6 {
+    background-color: white;
+    width: 70%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    height: 250px;
+    margin-left: 160px;
+}
+#projects {
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+#projects h2 {
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: rgb(29, 29, 29);
+}
+#github {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px;
+}
+#github ul {
+    list-style: none;
+    margin: 0;
+}
+#github a {
+    text-decoration: none;
+    color: rgb(29, 29, 29);
+}
+#github a:hover {
+    color: rgb(122, 55, 28);
+}
